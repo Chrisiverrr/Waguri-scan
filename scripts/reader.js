@@ -1,6 +1,6 @@
 const id = new URLSearchParams(location.search).get('id');
 const ch = +new URLSearchParams(location.search).get('c') || 1;
-const totalPages = 12; // stub
+const totalPages = 12; // stub value
 
 let page = 1;
 const img = document.getElementById('pageImg');

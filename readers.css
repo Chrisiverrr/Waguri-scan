@@ -7,15 +7,13 @@
 body{background:var(--bg);color:var(--text)}
 nav{
   display:flex;align-items:center;justify-content:space-between;
-  padding:.5rem 1rem;
-  background:#111;
+  padding:.5rem 1rem;background:#111;
 }
 nav a{color:#fff;text-decoration:none}
 select{background:#222;color:#fff;border:none;padding:.25rem}
 #reader{position:relative;height:calc(100vh - 48px)}
 #pageImg{
-  display:block;height:100%;margin:auto;object-fit:contain;
-  user-select:none;
+  display:block;height:100%;margin:auto;object-fit:contain;user-select:none;
 }
 .navZone{
   position:absolute;top:0;height:100%;width:20%;
